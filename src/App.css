@@ -1,0 +1,14 @@
+body{
+  background: #101010;
+  font-family: Klavika
+}
+.fixed-logo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 2rem;
+}
+
+::selection {
+    background: #101010;
+}
