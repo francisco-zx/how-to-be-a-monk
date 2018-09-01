@@ -20,7 +20,7 @@ export default class SliderItem extends Component{
         }}
       >
         {
-          this.props.slide && this.props.currentPosition >= ((this.props.itemWidth * this.props.slide.index) - 200) &&
+          this.props.slide && this.props.activeItem == this.props.slide.index &&
             <h1
               className={this.props.slide.vAlignment ? 'slider-item-title vertical-center animated fadeIn slow' : 'slider-item-title animated fadeIn slow'}
               style={{textAlign: this.props.slide.alignment}}

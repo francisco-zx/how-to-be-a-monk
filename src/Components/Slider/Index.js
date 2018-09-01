@@ -76,6 +76,7 @@ export default class SliderContainer extends Component {
               <SliderItem
                 slide={slide}
                 itemWidth={this.state.itemWidth}
+                activeItem={this.state.activeItem}
                 currentPosition={this.state.currentPosition}
                 key={slide.title}
               />
